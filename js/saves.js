@@ -221,7 +221,7 @@ function getPlayerData() {
             powers: [E(0), E(0), E(0)],
             ratio: 0,
             dRatio: [1,1,1],
-            elements: [14, 18, 24, 30, 43, 122, 123, 131, 139, 195, 232, 235, 239, 242, 253, 265, 267],
+            elements: [14, 18, 24, 30, 43, 122, 123, 131, 132, 139, 195, 232, 235, 239, 242, 253, 265, 267],
             muonic_el: [],
             elemTier: [1,1],
             elemLayer: 0,
@@ -251,7 +251,7 @@ function getPlayerData() {
             tree: [
                 'qol1', 'qol2', 'qol3', 'qol4', 'qol5', 'qol6', 'qol7', 'qol8', 'qol9',
                 'chal2', 'chal3',
-                'qu_qol1', 'qu_qol3', 'qu_qol4', 'qu_qol5', 'qu_qol8', 'qu_qol9', 'qu_qol10', 'qu_qol11', 'qu_qol12'
+                'qu_qol1', 'qu_qol2', 'qu_qol3', 'qu_qol4', 'qu_qol5', 'qu_qol6', 'qu_qol7', 'qu_qol8', 'qu_qol9', 'qu_qol10', 'qu_qol11', 'qu_qol12'
             ],
             chal: {
                 noTick: true,

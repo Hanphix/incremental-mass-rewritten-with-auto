@@ -185,7 +185,12 @@ function getPlayerData() {
         gal_prestige: E(0),
         gp_resources: new Array(GAL_PRESTIGE.res_length).fill(E(0)),
         auto_mainUpg: {},
-        mainUpg: {},
+        mainUpg: {
+            rp: [3, 4, 5, 6],
+            bh: [1, 4, 5, 6],
+            atom: [1, 2, 4, 5, 6],
+            br: [8, 11]
+        },
         ranks_reward: 0,
         pres_reward: 0,
         asc_reward: 0,
@@ -243,7 +248,10 @@ function getPlayerData() {
             times: E(0),
             post_10: false,
             stars: E(0),
-            tree: [],
+            tree: [
+                'qol1', 'qol2', 'qol3', 'qol4', 'qol5', 'qol6', 'qol7', 'qol8', 'qol9',
+                'qu_qol1', 'qu_qol3', 'qu_qol4', 'qu_qol8', 'qu_qol9', 'qu_qol10', 'qu_qol11', 'qu_qol12'
+            ],
             chal: {
                 noTick: true,
                 noBHC: true,

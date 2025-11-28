@@ -250,7 +250,8 @@ function getPlayerData() {
             stars: E(0),
             tree: [
                 'qol1', 'qol2', 'qol3', 'qol4', 'qol5', 'qol6', 'qol7', 'qol8', 'qol9',
-                'qu_qol1', 'qu_qol3', 'qu_qol4', 'qu_qol8', 'qu_qol9', 'qu_qol10', 'qu_qol11', 'qu_qol12'
+                'chal2', 'chal3',
+                'qu_qol1', 'qu_qol3', 'qu_qol4', 'qu_qol5', 'qu_qol8', 'qu_qol9', 'qu_qol10', 'qu_qol11', 'qu_qol12'
             ],
             chal: {
                 noTick: true,

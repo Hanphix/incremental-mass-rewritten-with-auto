@@ -464,7 +464,7 @@ function getInfSave() {
         core: [],
         inv: [],
         pre_theorem: [],
-        upg: [],
+        upg: [4, 6, 9, 10, 12, 14],
         fragment: {},
         pt_choosed: -1,
 

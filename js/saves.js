@@ -222,7 +222,7 @@ function getPlayerData() {
             ratio: 0,
             dRatio: [1,1,1],
             elements: [14, 18, 24, 30, 43, 122, 123, 131, 132, 139, 147, 195, 232, 235, 239, 242, 253, 265, 267],
-            muonic_el: [],
+            muonic_el: [3, 7],
             elemTier: [1,1],
             elemLayer: 0,
         },

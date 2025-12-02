@@ -39,6 +39,7 @@ const RANKS = {
         rank() {
             player.mass = E(0)
             for (let x = 1; x <= UPGS.mass.cols; x++) BUILDINGS.reset("mass_"+x)
+            FORMS.mod_addition_auto.doReset()
         },
         tier() {
             player.ranks.rank = E(0)

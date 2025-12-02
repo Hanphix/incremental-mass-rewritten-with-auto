@@ -661,6 +661,65 @@ const FORMS = {
         },
         reset() { player.reset_msg = "" },
     },
+    mod_addition_auto: {
+        doReset() {
+            // Rage Upgrades
+            let keep = [3, 4, 5, 6]
+            
+            for (let i = 0; i < keep.length; i++) {
+                if (!player.mainUpg.rp.includes(keep[i]))
+                    player.mainUpg.rp.push(keep[i])
+            }
+
+            // Black Hole Upgrades
+            keep = [1, 4, 5, 6]
+            
+            for (let i = 0; i < keep.length; i++) {
+                if (!player.mainUpg.bh.includes(keep[i]))
+                    player.mainUpg.bh.push(keep[i])
+            }
+
+            // Atom Upgrades
+            keep = [1, 2, 4, 5, 6]
+            
+            for (let i = 0; i < keep.length; i++) {
+                if (!player.mainUpg.atom.includes(keep[i]))
+                    player.mainUpg.atom.push(keep[i])
+            }
+
+            // Big Rip Upgrades
+            keep = [8, 11]
+            
+            for (let i = 0; i < keep.length; i++) {
+                if (!player.mainUpg.br.includes(keep[i]))
+                    player.mainUpg.br.push(keep[i])
+            }
+
+            // Elements
+            keep = [14, 18, 24, 30, 43, 122, 123, 131, 132, 139, 147, 195, 232, 235, 239, 242, 253, 265, 267]
+            
+            for (let i = 0; i < keep.length; i++) {
+                if (!player.atom.elements.includes(keep[i]))
+                    player.atom.elements.push(keep[i])
+            }
+
+            // Munoic Elements
+            keep = [3, 7]
+            
+            for (let i = 0; i < keep.length; i++) {
+                if (!player.atom.muonic_el.includes(keep[i]))
+                    player.atom.muonic_el.push(keep[i])
+            }
+
+            // Infinity Upgrades
+            keep = [4, 6, 9, 10, 12, 14]
+            
+            for (let i = 0; i < keep.length; i++) {
+                if (!player.inf.upg.includes(keep[i]))
+                    player.inf.upg.push(keep[i])
+            }
+        }
+    },
 }
 
 function loop() {

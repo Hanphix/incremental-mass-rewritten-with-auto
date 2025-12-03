@@ -224,7 +224,7 @@ const INF = {
         if (hasUpgrade('bh',25)) x = x.mul(upgEffect(2,25))
         if (hasUpgrade('atom',25)) x = x.mul(upgEffect(3,25))
 
-        return x.max(1).floor().pow(1.01)
+        return x.max(1).pow(1.01).floor()
     },
 
     upgs: [

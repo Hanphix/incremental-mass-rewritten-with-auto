@@ -472,7 +472,7 @@ const EXOTIC_ATOM = {
         let x = a0.mul(a1)
 
         x = x.pow(tmp.dark.abEff.ea||1)
-        .pow(1.001) // Tiny extra boost because where I'm at, it's a lil slow. :)
+        .pow(1.01) // Tiny extra boost because where I'm at, it's a lil slow. :) Was 1.001 now 1.01.
 
         if (tmp.inf_unl) x = x.pow(theoremEff('atom',4))
 
